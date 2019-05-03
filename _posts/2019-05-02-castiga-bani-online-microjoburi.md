@@ -12,6 +12,11 @@ button: FĂ CONT
 aff: https://track.fiverr.com/visit/?bta=25034&brand=fiverrcpa
 logo-at: fiverr-logo.png
 
+sitemap:
+  lastmod: 2019-05-03
+  priority: 0.9
+  changefreq: 'monthly'
+
 ---
 
 _Cum se câștigă bani online din microjoburi? Ce platformă să folosești pentru a aduce un venit de câteva sute de lei (chiar mai mult) pe lună, din confortul casei tale._
