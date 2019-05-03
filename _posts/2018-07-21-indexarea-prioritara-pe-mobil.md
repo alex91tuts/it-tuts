@@ -12,7 +12,7 @@ author: Alexpintea
 ---
 ## <h2>Ce înseamnă?</h2>
 
-> Indexarea prioritară pe mobil înseamnă că Google va folosi predominant varianta mobilă a site-ului pentru indexare și clasare. - GOOGLE
+> Indexarea prioritară pe mobil înseamnă că  va folosi predominant varianta mobilă a site-ului pentru indexare și clasare. - GOOGLE
 
 Datorită faptului că, din ce în ce mai multe căutări vin de pe un dispozitiv mobil, Google depune eforturi mari în a oferi utilizatorilor cea mai bună experiență. În acest sens, conținutul din varianta mobilă va avea prioritate atât la procesul de indexare, dar mai ales în procesul de clasare a rezultatelor.
 
