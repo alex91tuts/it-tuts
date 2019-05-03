@@ -26,7 +26,7 @@ layout: default
 		<div id="tocid" class="toc col"><span class="mobile-toc-trig" onclick='toggleShow()'; id="mobileActivate"></span><ul id="outputList"></ul></div>
 				{{ content }}
 		</div>
-		<div class="col-lg-4">
+		<div class="col-lg-4 sidebar-wrapper">
 			<div id="sidebar" class="sidebar-styling">
 			{% include sidebar.html %}
 			</div>
@@ -170,6 +170,11 @@ layout: default
     font-size: 20px;
 	}
 	@media only screen and (max-width: 600px) {
+		.sidebar-wrapper {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+			margin-top: 10px;
+		}
 		.mobile-toc-trig {
 				cursor: pointer;
 				display: block;
