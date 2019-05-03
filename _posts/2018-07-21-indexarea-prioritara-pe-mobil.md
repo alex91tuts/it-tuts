@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "INDEXAREA PRIORITARA PE MOBIL"
+title: INDEXAREA PRIORITARA PE MOBIL
 categorie: stiri
-descriere: În ultimul timp, se vorbește tot mai mult de Indexarea Prioritară pe Mobil (mobile-first indexing), cea mai recentă dezvoltare din cadrul efortului continuu al gigantului motor de căutarea google, de a face internetul cât mai compatibil cu terminalele mobile. 
+descriere: În ultimul timp, se vorbește tot mai mult de Indexarea Prioritară pe Mobil
+  (mobile-first indexing), cea mai recentă dezvoltare din cadrul efortului continuu
+  al gigantului motor de căutarea google, de a face internetul cât mai compatibil
+  cu terminalele mobile.
 image: indexarea-main.jpg
-author: "Alexpintea"
+author: Alexpintea
 
 ---
+## <h2>Ce înseamnă?</h2>
 
-<h2>Ce înseamnă?</h2>
----
-
-> Indexarea prioritară pe mobil înseamnă că Google va folosi predominant varianta mobilă a site-ului pentru indexare și clasare. - GOOGLE
+> Indexarea prioritară pe mobil înseamnă că GOOGLE  va folosi predominant varianta mobilă a site-ului pentru indexare și clasare. - GOOGLE
 
 Datorită faptului că, din ce în ce mai multe căutări vin de pe un dispozitiv mobil, Google depune eforturi mari în a oferi utilizatorilor cea mai bună experiență. În acest sens, conținutul din varianta mobilă va avea prioritate atât la procesul de indexare, dar mai ales în procesul de clasare a rezultatelor.
 
@@ -21,9 +22,9 @@ Dacă vom monitoriza traficul crawlboților google pe site-ul nostru, cel mai pr
 
 Indexarea este prioritară pe telefonul mobil și nu doar pe telefonul mobil. Astfel, dacă site-ul nostru nu are o variantă compatibilă cu ecranul smartphone-urilor, varianta de desktop va continua să fie inclusă în indexare.
 <h2>Ce trebuie să facem noi?</h2>
----
+-
 
-<h3>Fără panică</h3>
+### Fără panică
 
 Din ce în ce mai multe versiuni de mobil vor fi indexate. Asta nu înseamnă că se întâmplă vreo schimbare majoră. De fapt, probabil nu îți va afecta ranking-ul în google deloc.
 
@@ -31,8 +32,7 @@ Dacă google indexează varianta de mobil a site-ului tău, vei primi o notifica
 
 În cazul în care aveți site-uri diferite pentru desktop și mobil, iar pe varianta mobilă aveți mai puțin conținut, este puțin îngrijorător.
 
-<h3>Fă un test de verificare a adaptabilității pe mobil</h3>
----
+## <h3>Fă un test de verificare a adaptabilității pe mobil</h3>
 
 Nu trebuie să ai un site special pentru mobil pentru a fi în siguranță și a te clasa cât mai sus în rezultate, având în vedere că google va indexa și variantele pentru desktop. Dar va fi dificil dacă nu ai un site adaptabil.
 
@@ -40,13 +40,11 @@ Ce trebuie să faci? Intră pe <a href="https://search.google.com/test/mobile-f
 
 <img src="{{ site.url }}/assets/images/indexarea/moile-test.jpg" alt="{{ page.title }}"/>
 
-<h3>Gândește-te la experiența utilizatorilor pe mobil</h3>
----
+## <h3>Gândește-te la experiența utilizatorilor pe mobil</h3>
 
 Design-ul unui website în varianta de mobil trebuie să fie diferit față de varianta desktop pentru a fi atractiv pentru cititori. Ecranul este mic. Cei de la google au explicat că, de exemplu, meniurile de tip hamburger sau acordeon sunt ok de folosit. Aceste meniuri au sens, ajutând cititorul să navigheze prin conținutul site-ului într-un mod lejer.
 
-<h3>Scrie pentru mobil</h3>
----
+## <h3>Scrie pentru mobil</h3>
 
 Să citești de pe un ecran ecran este greu. Să citești de pe un ecran mic este și mai greu. Pentru a atrage audiența pe mobil, textul tău trebuie să fie cât mai prietenos și ușor de citit. Asta înseamnă propoziții scurte și paragrafe compacte, un font potrivit de mare și clar și destul spațiu alb.
 
@@ -62,8 +60,7 @@ Dacă audiența ta vine cu preponderență din terminalele mobile, optimizează 
 
 <img src="{{ site.url }}/assets/images/indexarea/yaost-snippet-1024x446.jpg" alt="{{ page.title }}"/>
 
-<h2>Și dacă am un site separat pentru mobil?</h2>
----
+## <h2>Și dacă am un site separat pentru mobil?</h2>
 
 <h3>Fă o evaluare și încercă să remediezi sau să îmbunătățești următoarele aspecte:</h3>
 
@@ -83,8 +80,7 @@ Asigură-te că link-urile din varianta pentru mobil sunt disponibile în hărț
 
 Dacă ți-ai verificat proprietatea doar în varianta pentru desktop ar trebui să o faci și pentru varianta mobilă.
 
-<h2>Concluzie</h2>
----
+## <h2>Concluzie</h2>
 
 Nu este nimic de speriat. Dacă ai un site adaptabil înseamnă că ai același conținut și pe mobil și pe desktop. În acest caz update-ul google va avea consecințe minore asupra site-ului tău.
 
