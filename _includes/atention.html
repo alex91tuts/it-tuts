@@ -1,0 +1,53 @@
+<div class="row att-grab">
+	<div class="col-lg-5 col-12 first-att">
+			<h4>{{page.headline}}</h4>
+	</div>
+	<div class="col-lg-4 col-12 second-att">
+		{% if page.logo-at %}
+		<img src="/assets/images/{{ page.logo-at }}"/>
+		{% else %}
+		<img src="/assets/images/idea.png"/>
+		{% endif %}
+	</div>
+	<div class="col-lg-3 col-12 third-att">
+		<a href="{{page.aff}}" target="_blank"><button>{{page.button}}</button></a>
+	</div>
+</div>
+
+
+<style>
+	.att-grab {
+		border: solid 1px lightgray;
+		text-align: center;
+		padding: 10px;
+		margin: 5px;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		box-shadow: 0 0 0.5rem #13131421;
+		background: #fff;
+	}
+	.first-att, .second-att, .third-att {
+		display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+	.second-att {
+		
+	}
+	.third-att button {
+		border-radius: 3px;
+    background-color: #ececec;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: 0 0 0.5rem #babbbc;
+    transition-duration: .3s;
+    background: -webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));
+    background: linear-gradient(to right,#ff8a00,#da1b60);
+    color: white;
+    padding: 0px 20px;
+		border: none;
+	}
+	.first-att h4 {
+		margin: 0;
+	}
+</style>

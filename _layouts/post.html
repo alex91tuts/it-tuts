@@ -1,0 +1,227 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+		<div class="image-holder" style="background-image: url(/assets/images/{{ page.image }})">
+			{% include breadcrumbs.html %}
+			<div class="post-titles">
+				<span class="categorie">{{ page.categorie }}</span>
+				<h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+				<p class="post-meta">
+					<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+						{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+						{{ page.date | date: date_format }}
+					</time>
+					{%- if page.author -%}
+						• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+					{%- endif -%}</p>
+			</div>
+		</div>
+  </header>
+
+  <div class="post-content e-content row" itemprop="articleBody">
+    <div class="col-lg-8 article-body" id="continut">
+		<div id="tocid" class="toc col"><span class="mobile-toc-trig" onclick='toggleShow()'; id="mobileActivate"></span><ul id="outputList"></ul></div>
+				{{ content }}
+		</div>
+		<div class="col-lg-4">
+			<div id="sidebar" class="sidebar-styling">
+			{% include sidebar.html %}
+			</div>
+		</div>
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+<style>
+	.categorie {
+		background-color: transparent;
+    background-image: linear-gradient(260deg, #8062d4 0%, #41dcab 100%);
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    font-weight: 600;
+	}
+	.post-header {
+    margin-bottom: 15px;
+}
+	.page-content {
+		background: #d3d3d329;
+	}
+	.post-content {
+		margin-left: 0;
+	}
+	.sidebar-styling {
+		border: solid 1px #d3d3d382;
+		width: 100%;
+		padding: 20px 10px;
+		border-radius: 5px;
+		background: white;
+		box-shadow: 0 0 20px #F0F0F0;
+	}
+	.article-body {
+		border: solid 1px #d3d3d382;
+    padding-top: 15px;
+		border-radius: 5px;
+		background: white;
+		box-shadow: 0 0 20px #F0F0F0;
+	}
+	.image-holder {
+		height: 500px;
+		padding: 20px;
+		display: flex;
+		position: relative;
+		border-radius: 5px;
+		box-shadow: 0 0 20px #F0F0F0;
+		background-size: cover;
+	}
+	.post-titles {
+		position: absolute;
+		bottom: 0;
+		z-index: 1;
+	}
+	.post-titles h1 {
+		font-size: 48px;
+    margin-bottom: 5px;
+    line-height: 100%!important;
+    color: #fff;
+    text-shadow: 0 1px 1px #000;
+    font-weight: 900 !important;
+    align-self: flex-end;
+	}
+	.image-holder::after {
+		content: "";
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #ffffff00;
+    background-image: linear-gradient(black,#d3d3d300, #00000091, black);
+		position: absolute;
+		z-index: 0;
+		border-radius: 5px;
+	}
+	.toc {
+		position: absolute;
+    margin-left: -126px;
+    background: white;
+		z-index: 19;
+		width: auto;
+		padding: 0;
+		top: 0;
+	}
+	.drop {
+		font-size: 48px!important;
+    font-weight: 700;
+    margin-right: 15px;
+    line-height: 1;
+    float: left;
+    margin: 23px 35px;
+    color: #63d3d9;
+    background: -webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));
+    background: linear-gradient(to right,#ff8a00,#da1b60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+	}	
+	#outputList {
+		list-style-type: none;
+    padding: 0;
+    border: solid 1px lightgray;
+    width: 95px;
+		border-radius: 3px;
+		border-bottom: none;
+		margin: 0;
+		top: 0;
+	}
+	#outputList li {
+		border-bottom: solid 1px lightgray;
+    padding: 3px;
+    font-size: 10px;
+    font-weight: 500;
+		color: black !important;
+		font-style: italic;
+	}
+	.title-box p {
+		border: solid 4px #d3d3d363;
+    padding: 10px;
+    margin-top: -21px;
+	}
+	.title-box h3 {
+		position: relative;
+    margin-left: 8px;
+    background: #fff;
+    box-sizing: content-box;
+    display: inline;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+	}
+	@media only screen and (max-width: 600px) {
+		.mobile-toc-trig {
+				cursor: pointer;
+				display: block;
+				position: absolute;
+				top: 0;
+				right: -13px;
+				height: 100%;
+				line-height: 20px;
+				opacity: 0.8;
+				width: 13px;
+				background: green;
+				color: #fff;
+				text-align: center;
+			}
+		.post-titles h1 {
+			font-weight: 600;
+    	font-size: 22px;
+		}
+		.image-holder {
+    height: 320px;
+		}
+	}
+</style>
+<script src="/assets/js/sticky.js"></script>
+<script>
+	
+let list = [],x = [], continut, he, outputList = '';
+	
+function toggleShow() {
+	var toc = document.getElementById('tocid');
+	if (toc.style.marginLeft === "-126px") {
+    toc.style.marginLeft = "-30px";
+  } else {
+    toc.style.marginLeft = "-126px";
+  }
+
+}
+	
+function getAllHeadings() {
+	continut = document.getElementById('continut');
+	he = continut.getElementsByTagName('h2');
+	for (i=0; i<he.length; i++) {
+	list.push(he[i].innerHTML);
+	}
+		console.log(list);
+		list.forEach(function(prod){
+			outputList += `
+		<!-- begin post -->
+				<a href="#${prod.split(' ').join('-').toLowerCase().replace("?", "").replace("!", "")}"><li>${prod}</li></a>
+		<!-- end post -->`	
+		});
+	document.getElementById('outputList').innerHTML = outputList;
+}
+window.onload = getAllHeadings();	
+	
+$("#sidebar, #tocid").stick_in_parent({offset_top: 15});
+</script>

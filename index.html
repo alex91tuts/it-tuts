@@ -1,0 +1,9 @@
+---
+layout: home
+banner: yes
+---
+<div class="row">
+{% for post in site.posts %}
+{% include blog-post.html %}
+{% endfor %}
+</div>
