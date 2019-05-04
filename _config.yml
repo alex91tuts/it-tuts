@@ -38,3 +38,4 @@ disqus:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+google_analytics: UA-86031208-3
