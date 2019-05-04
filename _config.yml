@@ -25,7 +25,8 @@ github_username:  jekyll
 markdown: kramdown
 theme: minima
 permalink: /:categories/:title.html
-
+disqus:
+    shortname: it-tuts-ro
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
