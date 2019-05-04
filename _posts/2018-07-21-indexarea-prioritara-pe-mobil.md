@@ -10,7 +10,7 @@ image: indexarea-main.jpg
 author: Alexpintea
 
 ---
-## <h2>Ce înseamnă?</h2>
+## Ce înseamnă?
 
 > Indexarea prioritară pe mobil înseamnă că GOOGLE  va folosi predominant varianta mobilă a site-ului pentru indexare și clasare. - GOOGLE
 
@@ -21,7 +21,7 @@ Datorită faptului că, din ce în ce mai multe căutări vin de pe un dispoziti
 Dacă vom monitoriza traficul crawlboților google pe site-ul nostru, cel mai probabil vom putea observa o creștere în traficul pentru Smartphone.
 
 Indexarea este prioritară pe telefonul mobil și nu doar pe telefonul mobil. Astfel, dacă site-ul nostru nu are o variantă compatibilă cu ecranul smartphone-urilor, varianta de desktop va continua să fie inclusă în indexare.
-<h2>Ce trebuie să facem noi?</h2>
+## Ce trebuie să facem noi?
 -
 
 ### Fără panică
@@ -32,7 +32,7 @@ Dacă google indexează varianta de mobil a site-ului tău, vei primi o notifica
 
 În cazul în care aveți site-uri diferite pentru desktop și mobil, iar pe varianta mobilă aveți mai puțin conținut, este puțin îngrijorător.
 
-## <h3>Fă un test de verificare a adaptabilității pe mobil</h3>
+## Fă un test de verificare a adaptabilității pe mobil
 
 Nu trebuie să ai un site special pentru mobil pentru a fi în siguranță și a te clasa cât mai sus în rezultate, având în vedere că google va indexa și variantele pentru desktop. Dar va fi dificil dacă nu ai un site adaptabil.
 
@@ -40,11 +40,11 @@ Ce trebuie să faci? Intră pe <a href="https://search.google.com/test/mobile-f
 
 <img src="{{ site.url }}/assets/images/indexarea/moile-test.jpg" alt="{{ page.title }}"/>
 
-## <h3>Gândește-te la experiența utilizatorilor pe mobil</h3>
+## Gândește-te la experiența utilizatorilor pe mobil
 
 Design-ul unui website în varianta de mobil trebuie să fie diferit față de varianta desktop pentru a fi atractiv pentru cititori. Ecranul este mic. Cei de la google au explicat că, de exemplu, meniurile de tip hamburger sau acordeon sunt ok de folosit. Aceste meniuri au sens, ajutând cititorul să navigheze prin conținutul site-ului într-un mod lejer.
 
-## <h3>Scrie pentru mobil</h3>
+## Scrie pentru mobil
 
 Să citești de pe un ecran ecran este greu. Să citești de pe un ecran mic este și mai greu. Pentru a atrage audiența pe mobil, textul tău trebuie să fie cât mai prietenos și ușor de citit. Asta înseamnă propoziții scurte și paragrafe compacte, un font potrivit de mare și clar și destul spațiu alb.
 
@@ -60,27 +60,27 @@ Dacă audiența ta vine cu preponderență din terminalele mobile, optimizează 
 
 <img src="{{ site.url }}/assets/images/indexarea/yaost-snippet-1024x446.jpg" alt="{{ page.title }}"/>
 
-## <h2>Și dacă am un site separat pentru mobil?</h2>
+## Și dacă am un site separat pentru mobil?
 
-<h3>Fă o evaluare și încercă să remediezi sau să îmbunătățești următoarele aspecte:</h3>
+Fă o evaluare și încercă să remediezi sau să îmbunătățești următoarele aspecte:
 
-<h3>Conținut</h3>
+### Conținut
 
 Asigură-te că site-ul tău are în varianta pentru mobil tot conținutul de calitate de pe site-ul desktop. Aici includem: text, conținut video și imagini. De asemenea, asigură-te că boții google pot culege toate formatele (incluzând atributele alt pentru imagini) și că sunt indexabile.
 
-<h3>Metadate</h3>
+### Metadate
 
 Toate titlurile meta și toate meta descrierile ar trebui să fie echivalente pentru ambele versiuni ale site-ului. Echivalent nu înseamnă identic. În acest sens, optimizează-ți lungimea titlurilor pentru un ecran mai mic, adică să fie mai scurte. Cu toate astea, să conțină aceeași cantitate de informație și aceleași cuvinte cheie.
 
-<h3>Hărțile XML site-ului</h3>
+### Hărțile XML site-ului
 
 Asigură-te că link-urile din varianta pentru mobil sunt disponibile în hărțile de site în format XML pe care le trimiți motoarelor de căutare.
 
-<h3>Google Search Console</h3>
+### Google Search Console
 
 Dacă ți-ai verificat proprietatea doar în varianta pentru desktop ar trebui să o faci și pentru varianta mobilă.
 
-## <h2>Concluzie</h2>
+## Concluzie
 
 Nu este nimic de speriat. Dacă ai un site adaptabil înseamnă că ai același conținut și pe mobil și pe desktop. În acest caz update-ul google va avea consecințe minore asupra site-ului tău.
 
