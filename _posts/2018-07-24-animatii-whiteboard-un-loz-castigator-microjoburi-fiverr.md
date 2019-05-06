@@ -5,6 +5,7 @@ categorie: tutoriale
 descriere: Indiferent din ce parte a lumii ești, ce studii ai sau cu ce te ocupi, vei primi de la Fiverr șanse egale. Poți să îți rotunjești veniturile sau să îți faci un trai din microjoburi.
 image: video-microjob.jpeg
 author: "Alexpintea"
+comment-id: 7
 
 headline: FĂ-ȚI CONT ACUM GRATUIT
 attention: GRATUIT

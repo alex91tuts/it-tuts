@@ -5,6 +5,7 @@ categorie: tutoriale
 descriere: Elementor - Această aplicație a dus dezvoltarea vizuală a paginilor și nu numai, la un alt nivel. Și când spun alt nivel, mă refer la unul galactic.
 image: elementor.jpg
 author: "Alexpintea"
+comment-id: 2
 
 headline: FĂ-ȚI CONT ACUM GRATUIT
 attention: GRATUIT

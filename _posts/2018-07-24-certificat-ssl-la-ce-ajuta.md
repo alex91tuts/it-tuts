@@ -5,6 +5,7 @@ categorie: tutoriale
 descriere: Ce este un certificat SSL? Cum funcționează și la ce ajută? Având în vedere că în ziua de astăzi frauda online este la mare căutare, este foarte important să știm cum ne putem securiza un site.
 image: certificat-SSL.jpg
 author: "Alexpintea"
+comment-id: 8
 
 ---
 

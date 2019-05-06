@@ -8,6 +8,7 @@ descriere: În ultimul timp, se vorbește tot mai mult de Indexarea Prioritară 
   cu terminalele mobile.
 image: indexarea-main.jpg
 author: Alexpintea
+comment-id: 6
 
 ---
 ## Ce înseamnă?

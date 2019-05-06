@@ -1,0 +1,75 @@
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+onload="if(submitted) {window.location='thankyou.html';}"></iframe>
+
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSf2ymVu4tRVbnL5tAopEp02XofkimPvP_FmVuIXXxumsUKLow/formResponse"
+method="post" target="hidden_iframe" onsubmit="submitted=true;">
+	<div class="row com-form">
+			<div class="col-12">
+			<h3><label>Comentariu</label></h3>
+      <textarea rows="5" placeholder="Mesaj*" name="entry.1403307843" required></textarea>
+			</div>
+			<div class="form-email col-12 col-lg-6">
+			<h4><label>Adresa Email *</label></h4>
+      <input type="email" placeholder="Email*" name="entry.277684419" required>
+			</div>
+			<div class="form-nume col-12 col-lg-6">
+			<h4><label>Nume *</label></h4>
+      <input type="text" placeholder="Porecla" name="entry.1992166834" required>
+			</div>
+			<div class="hidden-id">
+			<label>post-id</label>
+      <input type="text" placeholder="Subject" value="{{ page.comment-id }}" name="entry.480718066">
+			</div>
+			<div class="col-12" style="margin-top: 20px;margin-bottom: 20px;">
+      <button type="submit" id="send-com">TRIMITE <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+		  </div>
+	</div>
+</form>
+<style>
+	form {
+		width: 100%;
+	}
+	form input, form textarea {
+		background: #312d3c;
+		border: solid 2px transparent;
+		color: white;
+	}
+	form label, form textarea, form input {
+		width: 100%;
+		border-radius: 5px;
+		padding: 4px;
+		outline: none;
+	}
+	.form-email, .form-nume {
+		display: inline-block;
+	}
+	.hidden-id {
+		display: none;
+	}
+	.com-form h3, .com-form h4 {
+		margin-bottom: 0;
+	}
+	#send-com {
+		border-radius: 3px;
+    background-color: #ececec;
+    font-weight: 700;
+    text-align: center;
+    transition-duration: .3s;
+    background: -webkit-gradient(linear,left top,right top,from(#ff8a00),to(#da1b60));
+    background: linear-gradient(to right,#ff8a00,#da1b60);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+	}
+	.com-form {
+		background: #100e17;
+    color: white;
+		padding-top: 20px;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+	@media(max-width(600px)) {
+		
+	}
+</style>
