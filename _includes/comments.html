@@ -24,9 +24,48 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
 			<div class="col-12" style="margin-top: 20px;margin-bottom: 20px;">
       <button type="submit" id="send-com">TRIMITE <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
 		  </div>
+		<div class="col-12" style="text-align: center;">
+		<h3>Comentarii</h3>
+		</div>
+		<div class="response row">
+			<div class="avatar col-lg-1"><img src="/assets/images/users/panda.png"></div>
+			<div class="details col-12 col-lg-11">
+				<h4>AlexPintea</h4>
+				<p class="date">Ianuarie 23, 2018</p>
+				<p>Acesta este comentariul meu si te rog sa il tii minte</p>
+			</div>		
+		</div>
+		<div class="response row">
+			<div class="avatar col-lg-1"><img src="/assets/images/users/panda.png"></div>
+			<div class="details col-12 col-lg-11">
+				<h4>AlexPintea</h4>
+				<p class="date">Ianuarie 23, 2018</p>
+				<p>Acesta este comentariul meu si te rog sa il tii minte</p>
+			</div>		
+		</div>
 	</div>
 </form>
 <style>
+	.avatar {
+		padding: 0;
+	}
+	.details .date {
+		margin-bottom: 0;
+		font-style: italic;
+		font-weight: 100;
+		color: #ffffff3b;
+	}
+	.details {
+		
+	}
+	.response {
+		position: relative;
+		margin: 10px;
+		padding: 5px;
+		background: #3837385c;
+		width: 100%;
+		border-radius: 5px;
+	}
 	form {
 		width: 100%;
 	}
@@ -69,7 +108,11 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
 		border-bottom-right-radius: 5px;
 		border-bottom-left-radius: 5px;
 	}
-	@media(max-width(600px)) {
-		
+	@media (max-width: 600px) {
+		.avatar {
+			position: absolute !important;
+			text-align: right;
+			right: 6px;
+		}
 	}
 </style>
