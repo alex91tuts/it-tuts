@@ -22,9 +22,11 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
       <input type="text" placeholder="Subject" value="{{ page.comment-id }}" name="entry.480718066">
 			</div>
 			<div class="col-12" style="margin-top: 20px;margin-bottom: 20px;">
-      <button type="submit" id="send-com">TRIMITE <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+			<div class="g-recaptcha" data-sitekey="6LdKhKIUAAAAANBeRUsYRhMLZxccs4PWn3cPyBe1"></div>
+      <br/>
+      <input type="submit" id="send-com" value="TRIMITE"></i></input>
 		  </div>
-		{% assign comments = site.data.comments %}
+     	{% assign comments = site.data.comments %}
 		{% for comment in comments.rows %}{% if comment.post-id == page.comment-id %}
 		<div class="response row">
 			<div class="avatar col-lg-1"><img src="/assets/images/users/{% cycle 'cal', 'caracatita', 'fluture', 'gorila', 'panda', 'purcel', 'rechin', 'urs' %}.png"></div>
