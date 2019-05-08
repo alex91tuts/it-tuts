@@ -6,7 +6,7 @@ onload="if(submitted) {window.location='thankyou.html';}"></iframe>
 method="post" target="hidden_iframe" onsubmit="submitted=true;">
 	<div class="row com-form">
 			<div class="col-12">
-			<h3><label>Comentariu</label></h3>
+			<h3><label>Comentariu *</label></h3>
       <textarea rows="5" placeholder="Mesaj*" name="entry.1403307843" required></textarea>
 			</div>
 			<div class="form-email col-12 col-lg-6">
@@ -22,11 +22,9 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
       <input type="text" placeholder="Subject" value="{{ page.comment-id }}" name="entry.480718066">
 			</div>
 			<div class="col-12" style="margin-top: 20px;margin-bottom: 20px;">
-			<div class="g-recaptcha" data-sitekey="6LdKhKIUAAAAANBeRUsYRhMLZxccs4PWn3cPyBe1"></div>
-      <br/>
-      <input type="submit" id="send-com" value="TRIMITE"></i></input>
+      <button type="submit" id="send-com">TRIMITE <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
 		  </div>
-     	{% assign comments = site.data.comments %}
+		{% assign comments = site.data.comments %}
 		{% for comment in comments.rows %}{% if comment.post-id == page.comment-id %}
 		<div class="response row">
 			<div class="avatar col-lg-1"><img src="/assets/images/users/{% cycle 'cal', 'caracatita', 'fluture', 'gorila', 'panda', 'purcel', 'rechin', 'urs' %}.png"></div>
