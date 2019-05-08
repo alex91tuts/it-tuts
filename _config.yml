@@ -21,6 +21,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+ 
 # Build settings
 markdown: kramdown
 theme: minima
@@ -40,6 +41,9 @@ disqus:
 #   - vendor/ruby/
 google_analytics: UA-86031208-3
 
-integration_spreadsheet-key: 1c47kNUJtMi3Y3CM5YkqieCTkoFpTNHYHkOTOM4R8MWY
-github_user: alex91tuts
-github_repo: it-tuts
+plugins:
+  - jekyll-get-json
+
+jekyll_get_json:
+  data: comments
+  json: 'http://gsx2json.com/api?id=1c47kNUJtMi3Y3CM5YkqieCTkoFpTNHYHkOTOM4R8MWY&sheet=1'

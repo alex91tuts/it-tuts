@@ -24,30 +24,26 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
 			<div class="col-12" style="margin-top: 20px;margin-bottom: 20px;">
       <button type="submit" id="send-com">TRIMITE <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
 		  </div>
-		<div class="col-12" style="text-align: center;">
-		<h3>Comentarii</h3>
-		</div>
+		{% assign comments = site.data.comments %}
+		{% for comment in comments.rows %}{% if comment.post-id == page.comment-id %}
 		<div class="response row">
-			<div class="avatar col-lg-1"><img src="/assets/images/users/panda.png"></div>
+			<div class="avatar col-lg-1"><img src="/assets/images/users/{% cycle 'cal', 'caracatita', 'fluture', 'gorila', 'panda', 'purcel', 'rechin', 'urs' %}.png"></div>
 			<div class="details col-12 col-lg-11">
-				<h4>AlexPintea</h4>
-				<p class="date">Ianuarie 23, 2018</p>
-				<p>Acesta este comentariul meu si te rog sa il tii minte</p>
+				<h4>{{ comment.numeporecla }}</h4>
+				<p class="date">{{ comment.timestamp | date_to_string }}</p>
+				<p>{{ comment.comentariu }}</p>
 			</div>		
 		</div>
-		<div class="response row">
-			<div class="avatar col-lg-1"><img src="/assets/images/users/panda.png"></div>
-			<div class="details col-12 col-lg-11">
-				<h4>AlexPintea</h4>
-				<p class="date">Ianuarie 23, 2018</p>
-				<p>Acesta este comentariul meu si te rog sa il tii minte</p>
-			</div>		
-		</div>
+		{% endif %}
+		{% endfor %}
 	</div>
 </form>
 <style>
 	.avatar {
 		padding: 0;
+	}
+	.details {
+		margin-top: 6px;
 	}
 	.details .date {
 		margin-bottom: 0;
@@ -55,8 +51,8 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
 		font-weight: 100;
 		color: #ffffff3b;
 	}
-	.details {
-		
+	.details p {
+		margin-bottom: 0;
 	}
 	.response {
 		position: relative;
@@ -113,6 +109,7 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
 			position: absolute !important;
 			text-align: right;
 			right: 6px;
+			widows: 45px;
 		}
 	}
 </style>

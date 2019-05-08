@@ -1,8 +1,10 @@
 ---
 layout: page
 ---
+
 {% assign comments = site.data.comments %}
-{% for comment in comments %}
-{{ comment.Comentariu }}
+{% for comment in comments.rows limit:1 %}
+{{ comment.timestamp | date_to_string }}
 {% endfor %}
+
 
