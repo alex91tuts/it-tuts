@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Câștigă Bani Online Din Microjoburi"
-categorie: tutoriale
+category: tutoriale
 descriere: Cum se câștigă bani online din microjoburi? Ce platformă să folosești pentru a aduce un venit de câteva sute de lei (chiar mai mult) pe lună, din confortul casei tale.
 image: bani-microjoburi.jpg
 author: "Alexpintea"

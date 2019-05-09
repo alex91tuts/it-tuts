@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Siteground - Găzduire De Top | Review"
-categorie: tutoriale
+category: tutoriale
 descriere: Deși trecută de multe ori cu vederea, alegerea unui serviciu de găzduire este o una dintre părțile esențiale ale oricărui site de succes. Alegerea potrivită va duce la creșterea performanțelor site-ului din punct de vedere SEO și implicit la creșterea conversiei de orice tip.
 image: siteground.jpg
 author: "Alexpintea"

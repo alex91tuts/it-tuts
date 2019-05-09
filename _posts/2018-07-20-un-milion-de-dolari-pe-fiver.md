@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Un Milion de Dolari pe Fiverr | Prima Femeie Care A Trecut Acest Prag"
-categorie: inspirational
+category: inspirational
 descriere: Indiferent din ce parte a lumii ești, ce studii ai sau cu ce te ocupi, vei primi de la Fiverr șanse egale. Poți să îți rotunjești veniturile sau să îți faci un trai din microjoburi.
 image: million-dollar.jpeg
 author: "Alexpintea"

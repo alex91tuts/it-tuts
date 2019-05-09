@@ -1,8 +1,8 @@
 <div class="card-wrapper col-lg-4">
 	<div class="for-style">
 	<div class="imagine-post" style="background-image: url(/assets/images/{{ post.image }})">
-		{% if post.categorie %}
-		<span class="categ">{{ post.categorie | upcase }}</span>
+		{% if post.category %}
+		<a href="{{site.url }}/{{ post.category }}/index.html"><span class="categ">{{ post.category | upcase }}</span></a>
 		{% endif %}
 	</div>
 	<div class="footer-post">
@@ -59,7 +59,9 @@
 		border-top-right-radius: 3px;
 		background-position: center;
 	}
-	
+	.imagine-post a:hover {
+		text-decoration: none;
+	}
 	.footer-post {
 		padding: 15px;
 	}

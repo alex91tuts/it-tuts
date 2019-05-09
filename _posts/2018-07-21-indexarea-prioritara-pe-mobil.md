@@ -1,7 +1,7 @@
 ---
 layout: post
 title: INDEXAREA PRIORITARA PE MOBIL
-categorie: stiri
+category: stiri
 descriere: În ultimul timp, se vorbește tot mai mult de Indexarea Prioritară pe Mobil
   (mobile-first indexing), cea mai recentă dezvoltare din cadrul efortului continuu
   al gigantului motor de căutarea google, de a face internetul cât mai compatibil
