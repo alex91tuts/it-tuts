@@ -46,7 +46,7 @@ plugins:
 
 jekyll_get_json:
   data: comments
-  json: 'http://gsx2json.com/api?id=1c47kNUJtMi3Y3CM5YkqieCTkoFpTNHYHkOTOM4R8MWY&sheet=1'
+  json: 'http://gsx2json.com/api?id=1Baf6MvyqxgsgDUUPj6yqJsnHqpwX-D4cMjAJ1yx0Wz4'
 
 plugins: [jekyll-paginate-v2]
 ############################################################

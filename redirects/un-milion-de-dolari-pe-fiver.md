@@ -6,6 +6,7 @@ descriere: Indiferent din ce parte a lumii ești, ce studii ai sau cu ce te ocup
 image: million-dollar.jpeg
 author: "Alexpintea"
 comment-id: 5
+permalink: /un-milion-de-dolari-pe-fiver.html
 
 headline: FĂ-ȚI CONT ACUM GRATUIT
 attention: GRATUIT

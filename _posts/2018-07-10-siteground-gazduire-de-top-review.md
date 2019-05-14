@@ -6,6 +6,7 @@ descriere: Deși trecută de multe ori cu vederea, alegerea unui serviciu de gă
 image: siteground.jpg
 author: "Alexpintea"
 comment-id: 3
+canonical_url: '/siteground-gazduire-de-top-review.html'
 
 headline: FĂ-ȚI UN CONT ACUM
 attention: GRATUIT

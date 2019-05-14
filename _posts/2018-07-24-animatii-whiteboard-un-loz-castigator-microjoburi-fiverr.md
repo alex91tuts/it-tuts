@@ -7,6 +7,8 @@ image: video-microjob.jpeg
 author: "Alexpintea"
 comment-id: 7
 
+canonical_url: '/animatii-whiteboard-un-loz-castigator-microjoburi-fiverr.html'
+
 headline: FĂ-ȚI CONT ACUM GRATUIT
 attention: GRATUIT
 button: FĂ CONT

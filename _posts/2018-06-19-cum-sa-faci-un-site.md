@@ -7,6 +7,7 @@ descriere: Cum sa faci un site fără să fii programator? Cu ce să începi? Ca
 image: cum-sa-afci-un-site.jpg
 author: "Alexpintea"
 comment-id: 1
+canonical_url: '/cum-sa-faci-un-site.html'
 
 ---
 

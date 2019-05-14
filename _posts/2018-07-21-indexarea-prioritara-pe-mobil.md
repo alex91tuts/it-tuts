@@ -9,6 +9,7 @@ descriere: În ultimul timp, se vorbește tot mai mult de Indexarea Prioritară 
 image: indexarea-main.jpg
 author: Alexpintea
 comment-id: 6
+canonical_url: '/indexarea-prioritara-pe-mobil.html'
 
 ---
 ## Ce înseamnă?

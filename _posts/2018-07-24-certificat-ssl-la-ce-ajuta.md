@@ -6,6 +6,7 @@ descriere: Ce este un certificat SSL? Cum funcționează și la ce ajută? Avân
 image: certificat-SSL.jpg
 author: "Alexpintea"
 comment-id: 8
+canonical_url: '/certificat-ssl-la-ce-ajuta.html'
 
 ---
 
