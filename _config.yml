@@ -117,4 +117,3 @@ autopages:
     title: 'Postari din categoria :cat'
     # Optional, the permalink for the  pagination page (:cat is replaced), 
     # the pagination permalink path is then appended to this permalink structure
-    permalink: '/:cat'
