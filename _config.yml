@@ -46,4 +46,4 @@ plugins:
 
 jekyll_get_json:
   data: comments
-  json: 'http://gsx2json.com/api?id=1Baf6MvyqxgsgDUUPj6yqJsnHqpwX-D4cMjAJ1yx0Wz4'
+  json: 'http://gsx2json.com/api?id=1VsDGmuIJac0jLCIx_kvxs7RxqV4quYdSuLAqcOUQFoU'

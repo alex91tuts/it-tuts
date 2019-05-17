@@ -2,36 +2,39 @@
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
 onload="if(submitted) {window.location='thankyou.html';}"></iframe>
 
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSf2ymVu4tRVbnL5tAopEp02XofkimPvP_FmVuIXXxumsUKLow/formResponse"
+<form action="https://formsapi.jabwn.com/key/2xirPHqFhE0CUlCWT18R"
 method="post" target="hidden_iframe" onsubmit="submitted=true;">
 	<div class="row com-form">
 			<div class="col-12">
 			<h3><label>Comentariu *</label></h3>
-      <textarea rows="5" placeholder="Mesaj*" name="entry.1403307843" required></textarea>
+      <textarea rows="5" placeholder="Mesaj*" name="----text" required></textarea>
 			</div>
 			<div class="form-email col-12 col-lg-6">
 			<h4><label>Adresa Email *</label></h4>
-      <input type="email" placeholder="Email*" name="entry.277684419" required>
+      <input type="email" placeholder="Email*" name="----email" required>
 			</div>
 			<div class="form-nume col-12 col-lg-6">
 			<h4><label>Nume *</label></h4>
-      <input type="text" placeholder="Porecla" name="entry.1992166834" required>
+      <input type="text" placeholder="Porecla" name="----nume" required>
 			</div>
 			<div class="hidden-id">
 			<label>post-id</label>
-      <input type="text" placeholder="Subject" value="{{ page.comment-id }}" name="entry.480718066">
+      <input type="text" placeholder="Subject" value="{{ page.comment-id }}" name="---id">
 			</div>
 			<div class="col-12" style="margin-top: 20px;margin-bottom: 20px;">
       <button type="submit" id="send-com">TRIMITE <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
 		  </div>
 		{% assign comments = site.data.comments %}
-		{% for comment in comments.rows %}{% if comment.post-id == page.comment-id %}
+		{% for comment in comments.rows %}
+		{% assign cleaner = comment.bodyclean | replace: "Your Message:", "" | replace: "This email was sent by Jabwn Forms API.", "" | split: "----" %}
+		{% assign ID = cleaner | last | split: ":" | last %}
+		{% if ID == page.comment_id %}
 		<div class="response row">
 			<div class="avatar col-lg-1"><img src="/assets/images/users/{% cycle 'cal', 'caracatita', 'fluture', 'gorila', 'panda', 'purcel', 'rechin', 'urs' %}.png"></div>
 			<div class="details col-12 col-lg-11">
-				<h4>{{ comment.numeporecla }}</h4>
-				<p class="date">{{ comment.timestamp | date_to_string }}</p>
-				<p>{{ comment.comentariu }}</p>
+				<h4>{{ cleaner[3] | remove: "nume:" }}</h4>
+				<p class="date">{{ comment.date }}</p>
+				<p>{{ cleaner | last | split: ":" | last }}</p>
 			</div>		
 		</div>
 		{% endif %}
