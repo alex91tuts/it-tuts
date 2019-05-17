@@ -6,7 +6,6 @@ descriere: Profitshare - Una dintre cele mai simple și în același timp eficie
 image: bani-din-linkuri-afiliate.jpg
 author: "Alexpintea"
 comment-id: 4
-canonical_url: '/bani-link-uri-afiliate-profitshare.html'
 
 headline: FĂ-ȚI CONT ACUM GRATUIT
 attention: GRATUIT

@@ -6,7 +6,6 @@ descriere: Elementor - Această aplicație a dus dezvoltarea vizuală a paginilo
 image: elementor.jpg
 author: "Alexpintea"
 comment-id: 2
-canonical_url: /ce-este-elementor.html
 
 headline: FĂ-ȚI CONT ACUM GRATUIT
 attention: GRATUIT

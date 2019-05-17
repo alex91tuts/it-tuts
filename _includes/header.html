@@ -12,22 +12,7 @@
       <li class="nav-item active">
         <a class="nav-link" href="/index.html">ACASA <span class="sr-only">(current)</span></a>
       </li>
-			<li class="nav-item active">
-        <a class="nav-link" href="/blog/index.html">BLOG <span class="sr-only">(current)</span></a>
-      </li>
-			<li class="nav-item active">
-        <div class="dropdown show">
-					<a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						CATEGORII
-					</a>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						{% for category in site.categories %}
-						<a class="dropdown-item" href="{{ site.url }}/{{ category | first }}/index.html">{{ category | first | upcase }}</a>
-						{% endfor%}
-					</div>
-				</div>
-      </li>
-    </ul>
+			</ul>
     <span class="navbar-text">
       TUTORIALE INTERNET SI TEHNOLOGIE
     </span>

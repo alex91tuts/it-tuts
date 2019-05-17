@@ -1,5 +1,0 @@
----
----
-{% for i in (1..89) %}
-property{{i}}: $('table.specs-table > tbody > tr', html).find('td.specs-left:nth-child(1)').eq({{ i | plus: 4 }}).text().trim(),
-value{{i}}: $('table.specs-table > tbody > tr', html).find('td.specs-right:nth-child(2)').eq({{ i | plus: 4 }}).text().trim(),{% endfor %}

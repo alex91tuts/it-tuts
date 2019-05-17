@@ -2,22 +2,15 @@
 layout: post
 title: "Câștigă Bani Online Din Microjoburi"
 category: tutoriale
-canonical_url: '/castiga-bani-online-microjoburi.html/'
 descriere: Cum se câștigă bani online din microjoburi? Ce platformă să folosești pentru a aduce un venit de câteva sute de lei (chiar mai mult) pe lună, din confortul casei tale.
 image: bani-microjoburi.jpg
 author: "Alexpintea"
-comment-id: 9
 
 headline: FĂ-ȚI CONT ACUM GRATUIT
 attention: GRATUIT
 button: FĂ CONT
 aff: https://track.fiverr.com/visit/?bta=25034&brand=fiverrcpa
 logo-at: fiverr-logo.png
-
-sitemap:
-  lastmod: 2019-05-03
-  priority: 0.9
-  changefreq: 'monthly'
 
 ---
 
