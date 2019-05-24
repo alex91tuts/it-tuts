@@ -1,27 +1,27 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post h-entry">
 
   <header class="post-header">
-		<div class="image-holder" style="background-image: url(/assets/images/{{ page.image }})">
+		<div class="image-holder" style="background-image: url({{ page.image }})">
 			{% include breadcrumbs.html %}
 			<div class="post-titles">
 				<span class="categorie">{% if page.category %}{{ page.category }}{% else %}{{ page.categ }}{% endif %} </span>
-				<h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+				<h1 class="post-title p-name">{{ page.title | escape }}</h1>
 				<p class="post-meta">
-					<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+					<time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">
 						{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 						{{ page.date | date: date_format }}
 					</time>
 					{%- if page.author -%}
-						• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+						• <span class="p-author h-card">{{ page.author }}</span>
 					{%- endif -%}</p>
 			</div>
 		</div>
   </header>
 
-  <div class="post-content e-content row" itemprop="articleBody">
+  <div class="post-content e-content row">
     <div class="col-lg-8 article-body" id="continut">
 		<div id="tocid" class="toc col"><span class="mobile-toc-trig" onclick='toggleShow()'; id="mobileActivate"></span><ul id="outputList"></ul></div>
 				{{ content }}

@@ -1,13 +1,13 @@
 <div class="card-wrapper col-lg-4">
 	<div class="for-style">
-	<div class="imagine-post" style="background-image: url(/assets/images/{{ post.image }})">
+	<div class="imagine-post" style="background-image: url({{ post.image }})">
 		{% if post.category %}
 		<a href="{{site.url }}/{{ post.category }}/index.html"><span class="categ">{{ post.category | upcase }}</span></a>
 		{% endif %}
 	</div>
 	<div class="footer-post">
 		<h4>{{ post.title }}</h4>
-		<p>{{ post.descriere }}</p>
+		<p>{{ post.description }}</p>
 		<hr>
 		<a href="{{ post.url }}"><button>Citeste</button></a>
 		<div class="author-thumb" style="background-image: url(/assets/images/pintea.jpg)"></div>

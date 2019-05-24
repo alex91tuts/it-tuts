@@ -2,10 +2,11 @@
 layout: post
 title: "Ce este un certificat SSL și la ce ne ajută? Vrem un internet mai sigur!"
 category: tutoriale
-descriere: Ce este un certificat SSL? Cum funcționează și la ce ajută? Având în vedere că în ziua de astăzi frauda online este la mare căutare, este foarte important să știm cum ne putem securiza un site.
-image: certificat-SSL.jpg
+description: Ce este un certificat SSL? Cum funcționează și la ce ajută? Având în vedere că în ziua de astăzi frauda online este la mare căutare, este foarte important să știm cum ne putem securiza un site.
+image: /assets/images/certificat-SSL.jpg
 author: "Alexpintea"
 comment-id: 8
+lang: ro_RO
 
 ---
 

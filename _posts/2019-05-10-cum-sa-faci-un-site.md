@@ -3,10 +3,11 @@ layout: post
 title: "Cum sa faci un site? Un ghid complet | Postează primul tău blog"
 excerpt_separator: <!--more-->
 category: tutoriale
-descriere: Cum sa faci un site fără să fii programator? Cu ce să începi? Care este diferența dintre Blog și Site? Răspunsuri potrivite pentru începători găsești aici.
-image: cum-sa-afci-un-site.jpg
+description: Cum sa faci un site fără să fii programator? Cu ce să începi? Care este diferența dintre Blog și Site? Răspunsuri potrivite pentru începători găsești aici.
+image: /assets/images/cum-sa-afci-un-site.jpg
 author: "Alexpintea"
 comment-id: 1
+lang: ro_RO
 
 ---
 

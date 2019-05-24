@@ -2,11 +2,11 @@
 layout: post
 title: "Ce este Elementor? Creează un site la superlativ! Simplu Și Distractiv"
 category: tutoriale
-descriere: Elementor - Această aplicație a dus dezvoltarea vizuală a paginilor și nu numai, la un alt nivel. Și când spun alt nivel, mă refer la unul galactic.
-image: elementor.jpg
+description: Elementor - Această aplicație a dus dezvoltarea vizuală a paginilor și nu numai, la un alt nivel. Și când spun alt nivel, mă refer la unul galactic.
+image: /assets/images/elementor.jpg
 author: "Alexpintea"
 comment-id: 2
-
+lang: ro_RO
 headline: FĂ-ȚI CONT ACUM GRATUIT
 attention: GRATUIT
 button: FĂ CONT

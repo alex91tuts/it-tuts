@@ -2,10 +2,11 @@
 layout: post
 title: "BANI DIN LINK-URI AFILIATE | PROFITSHARE"
 category: tutoriale
-descriere: Profitshare - Una dintre cele mai simple și în același timp eficiente metode de a câștiga bani online este marketingul afiliat. Și mai mult decât atât, este un venit pasiv.
-image: bani-din-linkuri-afiliate.jpg
+description: Profitshare - Una dintre cele mai simple și în același timp eficiente metode de a câștiga bani online este marketingul afiliat. Și mai mult decât atât, este un venit pasiv.
+image: /assets/images/bani-din-linkuri-afiliate.jpg
 author: "Alexpintea"
 comment-id: 4
+lang: ro_RO
 
 headline: FĂ-ȚI CONT ACUM GRATUIT
 attention: GRATUIT
