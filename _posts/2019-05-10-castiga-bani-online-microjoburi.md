@@ -98,6 +98,82 @@ Dacă încă nu ai un cont, nu mai aștepta! Intră pe Fiverr, fă-ți unul și 
 
 Asigură-te că livrezi ceea ce descrii în gig și obține review-uri pozitive. Acestea reprezintă reflexia calității serviciului tău iar cumpărătorii vor ține cont mereu de review-uri înainte de a comanda!
 
+Având în vedere că Fiverr este cea mai mare platformă din domeniu și că are un număr uriaș de vânzători este destul de dificil ca microjobul tău să apară printre primele în rezultatele căutărilor. 
+
+Așadar, este nevoie și de puțină optimizare pentru motorul de căutare. Doar că, la început este greu. Limba engleza, secretele motorului Fiverr și lipsa experienței te pot face să renunți înainte să începi. 
+
+Mai mult, microjobul tău trebuie să iasă în evidență. Cum faci asta când încă mulți alții vând același lucru ca și tine.
+
+
+## Ieși în evidență?
+---
+
+### Prin TEXT...
+---
+
+Eu am reusit și încă foarte repede. Cum? După ce m-am hotărât ce microjob vreau am încercat să imi scriu oferta. 
+
+Hmm...Destul de dificil. Așa că am așes o variantă mai simplă care a și funcționat uimitor de bine. 
+
+Am ales un profesionist. Bineînțeles că printre servciile oferite pe platformă există și vânzători care îți scriu microjobul.
+
+De exemplu...
+
+<div class="row att-grab">
+	<div class="col-lg-5 col-12 first-att">
+			<h4>andyyporter</h4>
+	</div>
+	<div class="col-lg-4 col-12 second-att">
+		{% if page.logo-at %}
+		<img src="/assets/images/bani-online-din-microjoburi/andy.webp" style="border-radius:150px;max-height:100px;"/>
+		{% else %}
+		<img src="/assets/images/bani-online-din-microjoburi/andy.webp"/>
+		{% endif %}
+	</div>
+	<div class="col-lg-3 col-12 third-att">
+		<a href="https://track.fiverr.com/visit/?bta=25034&brand=fiverrcpa&landingPage=https%3A%2F%2Fwww.fiverr.com%2Fandyyporter%2Fwrite-a-high-performing-fiverr-gig-for-you%3Fcontext_referrer%3Dsearch_gigs%26source%3Dtop-bar%26ref_ctx_id%3Df99fc5b0-34b5-4e5c-b722-96e268d2db4b%26pckg_id%3D1%26pos%3D2%26context_type%3Dauto%26funnel%3D8ebc378d-8004-4711-b347-e960927bf0ab" target="_blank"><button>VEZI GIG </button></a>
+	</div>
+</div>
+
+...pentru 5$ iți face o descriere a microjobului în 24 de ore. Microjobul lui include 1 titlu, 200 de cuvinte, până la 7 cuvinte cheie și cercetarea competiției. O afacere destul de bună.
+
+Vânzătorul este din Marea Britanie, ceea ce înseamnă că folosește o engleză nativă, corectă din punct de vedere gramatical și care sună bine.
+
+### Prin ASPECT...
+---
+
+Un alt aspect deosebit de important este imaginea de cover a microjobului. Aceata iți poate aduce multe clickuri zilnic sau îi poate determina pe cumpărători să te ignore. 
+
+Gândește-te, într-o mare de imagini tu pe care ai alege-o? Din nou, dacă nu te pricepi la procesare de imagini sau pur și simplu îți lipsește inspirația, sunt o mulțime de vânzători care te pot ajuta.
+
+După ce ai scris un text bun, sau ai angajat pe cineva să o facă pentru tine, microjobului tău îi trebuie o imagine de cover potrivită și care să dea senzația că ești profesionist.
+
+Fiverr, ne ajută din nou...
+
+<div class="row att-grab">
+	<div class="col-lg-5 col-12 first-att">
+			<h4>noorainexpert</h4>
+	</div>
+	<div class="col-lg-4 col-12 second-att">
+		{% if page.logo-at %}
+		<img src="/assets/images/bani-online-din-microjoburi/noor.webp" style="border-radius:150px;max-height:100px;"/>
+		{% else %}
+		<img src="/assets/images/bani-online-din-microjoburi/noor.webp"/>
+		{% endif %}
+	</div>
+	<div class="col-lg-3 col-12 third-att">
+		<a href="https://track.fiverr.com/visit/?bta=25034&brand=fiverrcpa&landingPage=https%3A%2F%2Fwww.fiverr.com%2Fnoorainexpert%2Fcreate-2d-animated-fiverr-gig-video%3Fcontext_referrer%3Dsearch_gigs%26source%3Dtop-bar%26ref_ctx_id%3Dbaa3befe-c24a-4634-abaa-c05abaa58b08%26pckg_id%3D1%26pos%3D5%26context_type%3Dauto%26funnel%3Dfb6096bb-ba0f-4b89-b5a0-eb79f726d4a7" target="_blank"><button>VEZI GIG </button></a>
+	</div>
+</div>
+
+Acest vânzător, în schimbul a 5$ îți oferă în 3 zile, 3 imagini în rezoluție Full HD pentru microjobul tău. Are un rating de 4.9 din 208 recenzii. 
+
+Bineînțeles că există mulți alții. Vezi alte microjoburi <a href="https://track.fiverr.com/visit/?bta=25034&brand=fiverrcpa&landingPage=https%3A%2F%2Fwww.fiverr.com%2Fsearch%2Fgigs%3Fquery%3Dfiverr%2520gig%2520image%26source%3Dtop-bar%26acmpl%3D1%26search_in%3Deverywhere%26search-autocomplete-original-term%3Dfiverr%2520gig%2520image%26search-autocomplete-available%3Dtrue%26search-autocomplete-type%3Dsuggest%26search-autocomplete-position%3D4" target="_blank">aici</a>.
+
+Așadar, microjobul tău va suna bine, va transmite mesajul potrivit, va avea o imagine atrăgătoate și tot ce mai rămâne este să oferiți servicii de calitate și să aveți recenzii cât mai mari. 
+
+Apropo, recenziile mari ajută la poziționarea microjobului în motorul de căutare al platformei.
+
 Spor la TREABĂ!!!
 
 {% include atention.html %}
@@ -164,7 +240,7 @@ De asemenea, ei recomandă să îți faci și un profil normal, să îți faci u
 
 Așadar, dacă vrei să îți rotunjești veniturile sau chiar să lucrezi pe bani frumoși ca freelancer începe-ți acum povestea pe Fiverr.
 
-{% include atention.html %}
+<a href="https://track.fiverr.com/visit/?bta=25034&nci=5929" Target="_Top"><img border="0" src="https://fiverr.ck-cdn.com/tn/serve/?cid=1610562"  width="1200"></a>
 
 
 
